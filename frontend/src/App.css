@@ -1,0 +1,35 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+@theme {
+  /* Surfaces */
+  --color-surface-page: #1B1830;
+  --color-surface-card: #221E3D;
+  --color-surface-panel: #2A2549;
+  --color-surface-border: #332C55;
+
+  /* Buttons */
+  --color-btn-primary: #7F77DD;
+  --color-btn-primary-text: #1B1830;
+  --color-btn-secondary-border: #534AB7;
+  --color-btn-secondary-text: #C9BEF0;
+  --color-btn-success: #5DCAA5;
+  --color-btn-success-text: #04342C;
+  --color-btn-danger: #F0997B;
+  --color-btn-danger-text: #4A1B0C;
+
+  /* Status Badges */
+  --color-status-accepted-bg: #173404;
+  --color-status-accepted-text: #97C459;
+  --color-status-wa-bg: #501313;
+  --color-status-wa-text: #F09595;
+  --color-status-tle-bg: #412402;
+  --color-status-tle-text: #FAC775;
+  --color-status-pending-bg: #2A2549;
+  --color-status-pending-text: #A79DC9;
+
+  /* Text & Accents */
+  --color-content-primary: #EDEAF9;
+  --color-content-muted: #A79DC9;
+  --color-content-accent: #B7ACE6;
+}
